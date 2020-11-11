@@ -33,3 +33,40 @@ DELETE FROM post WHERE id=3;
 INSERT INTO post (id, username, creation_date, content, post_description) VALUES (6, 'Carlos', 'November 10, 2020', 'LOREM IPSUM', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
 
 
+
+
+
+
+CREATE TABLE comments(
+    id INT,
+    creation_date DATE,
+    creation_time TIME,
+    content VARCHAR(250),
+    FOREIGN KEY (id) REFERENCES post(id)
+);
+
+INSERT INTO comments (id, creation_date, creation_time, content) VALUES (1, 'November 11 2020', '09:30', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+
+INSERT INTO comments (id, creation_date, creation_time, content) VALUES (1, 'November 11 2020', '09:30', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+
+INSERT INTO comments (id, creation_date, creation_time, content) VALUES (6, 'November 11 2020', '10:30', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+
+INSERT INTO comments (id, creation_date, creation_time, content) VALUES (6, 'November 11 2020', '10:30', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+
+INSERT INTO comments (id, creation_date, creation_time, content) VALUES (6, 'November 11 2020', '10:30', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+
+INSERT INTO comments (id, creation_date, creation_time, content) VALUES (6, 'November 11 2020', '10:30', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+
+INSERT INTO post (id, username, creation_date, content, post_description) VALUES (7, 'Margarita', 'November 10, 2020', 'LOREM IPSUM', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+
+INSERT INTO comments (id, creation_date, creation_time, content) VALUES (7, 'November 11 2020', '10:30', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+
+INSERT INTO comments (id, creation_date, creation_time, content) VALUES (7, 'November 11 2020', '10:30', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+
+INSERT INTO comments (id, creation_date, creation_time, content) VALUES (7, 'November 11 2020', '10:30', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+
+INSERT INTO comments (id, creation_date, creation_time, content) VALUES (7, 'November 11 2020', '10:30', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+
+INSERT INTO comments (id, creation_date, creation_time, content) VALUES (7, 'November 11 2020', '10:30', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.');
+
+
