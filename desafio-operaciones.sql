@@ -35,7 +35,7 @@ INSERT INTO post (id, username, creation_date, content, post_description) VALUES
 
 
 
-
+--parte 2
 
 CREATE TABLE comments(
     id INT,
